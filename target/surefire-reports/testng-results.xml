@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53270" started-at="2021-09-10T17:21:44 IST" finished-at="2021-09-10T17:22:37 IST">
+    <groups>
+    </groups>
+    <test name="validating title" duration-ms="14831" started-at="2021-09-10T17:21:44 IST" finished-at="2021-09-10T17:21:58 IST">
+      <class name="Acedamy.validatetitle">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:Acedamy.validatetitle@1e178745]" name="initilize" is-config="true" duration-ms="14451" started-at="2021-09-10T17:21:44 IST" finished-at="2021-09-10T17:21:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="titlevalidation()[pri:0, instance:Acedamy.validatetitle@1e178745]" name="titlevalidation" duration-ms="87" started-at="2021-09-10T17:21:58 IST" finished-at="2021-09-10T17:21:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titlevalidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Acedamy.validatetitle@1e178745]" name="teardown" is-config="true" duration-ms="235" started-at="2021-09-10T17:21:58 IST" finished-at="2021-09-10T17:21:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Acedamy.validatetitle -->
+    </test> <!-- validating title -->
+    <test name="validating navigation" duration-ms="16427" started-at="2021-09-10T17:21:58 IST" finished-at="2021-09-10T17:22:15 IST">
+      <class name="Acedamy.navbar">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:Acedamy.navbar@6ff29830]" name="initilize" is-config="true" duration-ms="16179" started-at="2021-09-10T17:21:58 IST" finished-at="2021-09-10T17:22:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="navbarvalidation()[pri:0, instance:Acedamy.navbar@6ff29830]" name="navbarvalidation" duration-ms="123" started-at="2021-09-10T17:22:15 IST" finished-at="2021-09-10T17:22:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navbarvalidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Acedamy.navbar@6ff29830]" name="teardown" is-config="true" duration-ms="124" started-at="2021-09-10T17:22:15 IST" finished-at="2021-09-10T17:22:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Acedamy.navbar -->
+    </test> <!-- validating navigation -->
+    <test name="validating user login" duration-ms="21908" started-at="2021-09-10T17:22:15 IST" finished-at="2021-09-10T17:22:37 IST">
+      <class name="Acedamy.Homepage">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:Acedamy.Homepage@21b2e768]" name="initilize" is-config="true" duration-ms="16195" started-at="2021-09-10T17:22:15 IST" finished-at="2021-09-10T17:22:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String,java.lang.String)[pri:0, instance:Acedamy.Homepage@21b2e768]" name="basepagenavigation" duration-ms="3376" started-at="2021-09-10T17:22:31 IST" data-provider="getdata" finished-at="2021-09-10T17:22:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anusha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anuu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String,java.lang.String)[pri:0, instance:Acedamy.Homepage@21b2e768]" name="basepagenavigation" duration-ms="2174" started-at="2021-09-10T17:22:35 IST" data-provider="getdata" finished-at="2021-09-10T17:22:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhavya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhav]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Acedamy.Homepage@21b2e768]" name="teardown" is-config="true" duration-ms="149" started-at="2021-09-10T17:22:37 IST" finished-at="2021-09-10T17:22:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Acedamy.Homepage -->
+    </test> <!-- validating user login -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="0" started-at="2021-09-10T17:22:37 IST" finished-at="2021-09-10T17:22:37 IST">
+    <groups>
+    </groups>
+    <test name="validating user login" duration-ms="0" started-at="2021-09-10T17:22:37 IST" finished-at="2021-09-10T17:22:37 IST">
+    </test> <!-- validating user login -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

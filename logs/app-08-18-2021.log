@@ -1,0 +1,7 @@
+21:39:00.236 [main] INFO  resources.baseclass - Compared properly
+21:39:01.545 [main] INFO  resources.baseclass - driver is intilized
+21:39:11.480 [main] INFO  resources.baseclass - navigated to home page
+21:39:11.554 [main] INFO  resources.baseclass - successfully validated text message
+21:39:12.876 [main] INFO  resources.baseclass - driver is intilized
+21:39:18.293 [main] INFO  resources.baseclass - navigated to home page
+21:39:20.479 [main] INFO  resources.baseclass - successfully tested
